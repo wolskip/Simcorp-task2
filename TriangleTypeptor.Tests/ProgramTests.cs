@@ -30,7 +30,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\r\n", _output.ToString());
+        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\n", _output.ToString());
     }
 
     [Test]
@@ -43,7 +43,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\r\n", _output.ToString());
+        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\n", _output.ToString());
     }
 
     [Test]
@@ -56,7 +56,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("Not a triangle\r\n", _output.ToString());
+        Assert.AreEqual("Not a triangle\n", _output.ToString());
     }
 
     [Test]
@@ -69,7 +69,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("The type of triangle is: Equilateral\r\n", _output.ToString());
+        Assert.AreEqual("The type of triangle is: Equilateral\n", _output.ToString());
     }
 
     [Test]
@@ -82,7 +82,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("The type of triangle is: Isosceles\r\n", _output.ToString());
+        Assert.AreEqual("The type of triangle is: Isosceles\n", _output.ToString());
     }
 
     [Test]
@@ -95,7 +95,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("The type of triangle is: Scalene\r\n", _output.ToString());
+        Assert.AreEqual("The type of triangle is: Scalene\n", _output.ToString());
     }
 
     [Test]
@@ -108,7 +108,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("Not a triangle\r\n", _output.ToString());
+        Assert.AreEqual("Not a triangle\n", _output.ToString());
     }
 
     [Test]
@@ -121,7 +121,7 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("The type of triangle is: Equilateral\r\n", _output.ToString());
+        Assert.AreEqual("The type of triangle is: Equilateral\n", _output.ToString());
     }
 
     [Test]
@@ -134,6 +134,6 @@ public class ProgramTests
         Program.Main(args);
 
         // Assert
-        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\r\n", _output.ToString());
+        Assert.AreEqual("Invalid input. Please provide exactly three integer side lengths.\n", _output.ToString());
     }
 }
